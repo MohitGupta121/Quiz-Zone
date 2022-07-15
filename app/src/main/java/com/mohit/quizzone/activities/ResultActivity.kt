@@ -52,8 +52,13 @@ class ResultActivity : AppCompatActivity() {
         }
         txtScore.text = "Your Score : $score"
     }
+<<<<<<< HEAD
 
     override fun onBackPressed() {
+=======
+	
+	override fun onBackPressed() {
+>>>>>>> 16856f2922f5c169c99a3239298aeeb58370bd13
         super.onBackPressed()
         startActivity(
             Intent(
@@ -62,4 +67,8 @@ class ResultActivity : AppCompatActivity() {
             )
         )
     }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 16856f2922f5c169c99a3239298aeeb58370bd13
 }
