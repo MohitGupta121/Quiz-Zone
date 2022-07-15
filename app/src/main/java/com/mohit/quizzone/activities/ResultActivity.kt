@@ -10,7 +10,6 @@ import com.mohit.quizzone.R
 import com.mohit.quizzone.models.Quiz
 import kotlinx.android.synthetic.main.activity_result.*
 
-
 class ResultActivity : AppCompatActivity() {
 
     lateinit var quiz: Quiz
@@ -52,8 +51,8 @@ class ResultActivity : AppCompatActivity() {
         }
         txtScore.text = "Your Score : $score"
     }
-	
-	override fun onBackPressed() {
+
+    override fun onBackPressed() {
         super.onBackPressed()
         startActivity(
             Intent(
@@ -62,5 +61,5 @@ class ResultActivity : AppCompatActivity() {
             )
         )
     }
-    
+
 }
