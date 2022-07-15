@@ -51,8 +51,8 @@ class ResultActivity : AppCompatActivity() {
         }
         txtScore.text = "Your Score : $score"
     }
-
-    override fun onBackPressed() {
+	
+	override fun onBackPressed() {
         super.onBackPressed()
         startActivity(
             Intent(
@@ -61,5 +61,4 @@ class ResultActivity : AppCompatActivity() {
             )
         )
     }
-
 }
