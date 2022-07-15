@@ -1,13 +1,15 @@
 package com.mohit.quizzone.activities
 
+import android.content.Intent
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Html
+import androidx.appcompat.app.AppCompatActivity
 import com.google.gson.Gson
 import com.mohit.quizzone.R
 import com.mohit.quizzone.models.Quiz
 import kotlinx.android.synthetic.main.activity_result.*
+
 
 class ResultActivity : AppCompatActivity() {
 
@@ -49,5 +51,15 @@ class ResultActivity : AppCompatActivity() {
             }
         }
         txtScore.text = "Your Score : $score"
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        startActivity(
+            Intent(
+                this,
+                MainActivity::class.java
+            )
+        )
     }
 }
