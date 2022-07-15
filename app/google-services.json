@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1088728425717",
+    "project_id": "quiz-zone-9a9e4",
+    "storage_bucket": "quiz-zone-9a9e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088728425717:android:f5172a98c639c85adcd1bc",
+        "android_client_info": {
+          "package_name": "com.mohit.quizzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088728425717-uvf1mbsqm6nbpa2ttch9rqteaa2khrfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAflAzrqXV9kwFAG1NTKYm4kFRVMcUZkeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088728425717-uvf1mbsqm6nbpa2ttch9rqteaa2khrfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
