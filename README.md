@@ -12,7 +12,7 @@
 
 ***You can Install and test Quiz Zone app from below 👇***
 
-[![Quiz Zone](https://img.shields.io/badge/QuizZone✅-APK-red.svg?style=for-the-badge&logo=android)](https://github.com/MohitGupta121/Showify/releases/download/v1.0/app.apk)
+[![Quiz Zone](https://img.shields.io/badge/QuizZone✅-APK-red.svg?style=for-the-badge&logo=android)](https://github.com/MohitGupta121/Quiz-Zone/suites/7385042765/artifacts/300450770)
 
 ## ⚙️ Features
 * Daily New Quizes reated to Maths.
