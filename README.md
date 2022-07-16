@@ -26,14 +26,15 @@
 
 ## 🎥 Preview
 
-https://user-images.githubusercontent.com/76530270/174883120-d9505395-dae0-46a6-9f82-db63514a2497.mp4
+![Screenrecorder-2022-07-16-16-50-27-662_0_COMPRESSED](https://user-images.githubusercontent.com/76530270/179353042-d0563caf-e445-402b-9008-2d0f5dfac69d.gif)
+
 
 
 ## 📸 Screenshots
 
 ||||
 |:----------------------------------------:|:-----------------------------------------:|:-----------------------------------------: |
-| ![Showify](https://user-images.githubusercontent.com/76530270/174633719-880906bc-3b96-43c0-82f3-e89e96459112.jpg) | ![Screenshot_2022-05-31-12-23-27-332_com android camera](https://user-images.githubusercontent.com/76530270/174633782-2f1907ec-a10e-46a7-b29c-2cfc5e03fba6.jpg) | ![Screenshot_2022-05-31-12-22-58-343_com example diseasedetection](https://user-images.githubusercontent.com/76530270/174633770-743877e2-6cb6-4d27-9a61-ed796e57c2b0.jpg) | 
+| ![Showify](https://user-images.githubusercontent.com/76530270/179352912-2568dc74-bb3e-4161-b75c-1d49f75f678e.jpg) | ![Screenshot_2022-05-31-12-23-27-332_com android camera](https://user-images.githubusercontent.com/76530270/179352914-9fe5c7cc-909a-4b74-bec8-2ff33df6a65c.jpg) | ![Screenshot_2022-05-31-12-22-58-343_com example diseasedetection](https://user-images.githubusercontent.com/76530270/179352921-09c73335-2115-4773-b4d5-5796c2a9b7dd.jpg) | 
 
 
 ## Built With 🛠
