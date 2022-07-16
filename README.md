@@ -26,7 +26,7 @@
 
 ## 🎥 Preview
 
-![Screenrecorder-2022-07-16-16-50-27-662_0_COMPRESSED](https://user-images.githubusercontent.com/76530270/179353042-d0563caf-e445-402b-9008-2d0f5dfac69d.gif)
+<img height="600" width="330" src="https://user-images.githubusercontent.com/76530270/179353042-d0563caf-e445-402b-9008-2d0f5dfac69d.gif" >
 
 
 
