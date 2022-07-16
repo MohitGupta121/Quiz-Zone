@@ -16,7 +16,7 @@ import kotlinx.android.synthetic.main.activity_question.*
 
 class QuestionActivity : AppCompatActivity() {
 
-    var quizzes : MutableList<Quiz>? = null
+    var quizzes: MutableList<Quiz>? = null
     var questions: MutableMap<String, Question>? = null
     var index = 1
 
@@ -42,7 +42,7 @@ class QuestionActivity : AppCompatActivity() {
             Log.d("FINALQUIZ", questions.toString())
 
             val intent = Intent(this, ResultActivity::class.java)
-            val json  = Gson().toJson(quizzes!![0])
+            val json = Gson().toJson(quizzes!![0])
             intent.putExtra("QUIZ", json)
             startActivity(intent)
         }
@@ -50,19 +50,19 @@ class QuestionActivity : AppCompatActivity() {
 
     private fun setUpFirestore() {
         val firestore = FirebaseFirestore.getInstance()
-        var quizTitle = intent.getStringExtra("Title")
+        val quizTitle = intent.getStringExtra("Title")
         if (quizTitle != null) {
             firestore.collection("quizzes").whereEqualTo("title", quizTitle)
                 .get()
                 .addOnSuccessListener {
-                    if(it != null && !it.isEmpty){
+                    if (it != null && !it.isEmpty) {
                         quizzes = it.toObjects(Quiz::class.java)
                         questions = quizzes!![0].questions
                         bindViews()
                     }
                 }
         }
-        
+
     }
 
     private fun bindViews() {
@@ -70,14 +70,12 @@ class QuestionActivity : AppCompatActivity() {
         btnSubmit.visibility = View.GONE
         btnNext.visibility = View.GONE
 
-        if(index == 1){ //first question
+        if (index == 1) { //first question
             btnNext.visibility = View.VISIBLE
-        }
-        else if(index == questions!!.size) { // last question
+        } else if (index == questions!!.size) { // last question
             btnSubmit.visibility = View.VISIBLE
             btnPrevious.visibility = View.VISIBLE
-        }
-        else{ // Middle
+        } else { // Middle
             btnPrevious.visibility = View.VISIBLE
             btnNext.visibility = View.VISIBLE
         }
