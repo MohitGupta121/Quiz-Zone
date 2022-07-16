@@ -32,6 +32,7 @@ class QuizAdapter(val context: Context, val quizzes: List<Quiz>) :
         holder.itemView.setOnClickListener {
             Toast.makeText(context, quizzes[position].title, Toast.LENGTH_SHORT).show()
             val intent = Intent(context, QuestionActivity::class.java)
+            intent.putExtra("Title", quizzes[position].title)
             context.startActivity(intent)
         }
     }

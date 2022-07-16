@@ -50,7 +50,9 @@ class QuestionActivity : AppCompatActivity() {
 
     private fun setUpFirestore() {
         val firestore = FirebaseFirestore.getInstance()
-            firestore.collection("quizzes")
+        var quizTitle = intent.getStringExtra("Title")
+        if (quizTitle != null) {
+            firestore.collection("quizzes").whereEqualTo("title", quizTitle)
                 .get()
                 .addOnSuccessListener {
                     if(it != null && !it.isEmpty){
@@ -59,6 +61,8 @@ class QuestionActivity : AppCompatActivity() {
                         bindViews()
                     }
                 }
+        }
+        
     }
 
     private fun bindViews() {
